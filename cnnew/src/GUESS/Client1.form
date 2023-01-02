@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUESS.Client1">
+  <grid id="27dc6" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="953" height="630"/>
+    </constraints>
+    <properties>
+      <font name="Curlz MT" size="12" style="1"/>
+      <foreground color="-15746145"/>
+      <opaque value="false"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="88d05" binding="panel1" layout-manager="GridLayoutManager" row-count="16" column-count="16" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-2302789"/>
+          <foreground color="-4545093"/>
+          <opaque value="true"/>
+        </properties>
+        <border type="none" title-justification="2" title-position="2"/>
+        <children>
+          <vspacer id="e9da3">
+            <constraints>
+              <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="b0e5d" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="7" column="3" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Baskerville Old Face" size="22" style="2"/>
+              <foreground color="-16418967"/>
+              <text value="Question"/>
+            </properties>
+          </component>
+          <component id="95784" class="javax.swing.JLabel" binding="qn1">
+            <constraints>
+              <grid row="7" column="9" row-span="1" col-span="7" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="64540" class="javax.swing.JTextField" binding="anstext">
+            <constraints>
+              <grid row="9" column="9" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <alignmentX value="1.0"/>
+              <alignmentY value="1.0"/>
+            </properties>
+          </component>
+          <vspacer id="958b6">
+            <constraints>
+              <grid row="10" column="3" row-span="1" col-span="4" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="c68f6">
+            <constraints>
+              <grid row="8" column="12" row-span="1" col-span="4" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="969ad" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="9" column="3" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Baskerville Old Face" size="22" style="2"/>
+              <foreground color="-15287528"/>
+              <text value="Answer"/>
+            </properties>
+          </component>
+          <vspacer id="6de7c">
+            <constraints>
+              <grid row="1" column="15" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="48e16" class="javax.swing.JButton" binding="QnButton">
+            <constraints>
+              <grid row="12" column="3" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <autoscrolls value="false"/>
+              <background color="-3046611"/>
+              <borderPainted value="false"/>
+              <font name="Curlz MT" size="26" style="2"/>
+              <text value="View Question"/>
+            </properties>
+          </component>
+          <component id="9a0e6" class="javax.swing.JSlider" binding="XP">
+            <constraints>
+              <grid row="5" column="3" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <alignmentX value="1.0"/>
+              <alignmentY value="1.0"/>
+              <background color="-11497797"/>
+              <enabled value="false"/>
+              <foreground color="-9192656"/>
+              <inverted value="false"/>
+              <maximum value="11"/>
+              <minimum value="-1"/>
+              <opaque value="true"/>
+              <orientation value="0"/>
+              <toolTipText value="XP"/>
+              <value value="0"/>
+              <valueIsAdjusting value="true"/>
+              <visible value="true"/>
+            </properties>
+          </component>
+          <component id="90c06" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Algerian" size="20" style="2"/>
+              <foreground color="-13882437"/>
+              <text value="LEVEL : "/>
+            </properties>
+          </component>
+          <component id="89aaf" class="javax.swing.JLabel" binding="ti">
+            <constraints>
+              <grid row="1" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-11497797"/>
+              <foreground color="-4545093"/>
+              <icon value="IMg/time-left.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="a2769" class="javax.swing.JLabel" binding="lh">
+            <constraints>
+              <grid row="1" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Curlz MT" size="22" style="1"/>
+              <foreground color="-13882437"/>
+              <text value="30"/>
+            </properties>
+          </component>
+          <hspacer id="ae60d">
+            <constraints>
+              <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="12722" class="javax.swing.JLabel" binding="lvl">
+            <constraints>
+              <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Curlz MT" size="22" style="3"/>
+              <foreground color="-13621573"/>
+              <text value="1 "/>
+            </properties>
+          </component>
+          <hspacer id="8801e">
+            <constraints>
+              <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="46a0f" class="javax.swing.JButton" binding="Ansbutton">
+            <constraints>
+              <grid row="12" column="10" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-3046611"/>
+              <font name="Curlz MT" size="26" style="2"/>
+              <text value="Check Answer"/>
+            </properties>
+          </component>
+          <hspacer id="929f1">
+            <constraints>
+              <grid row="12" column="7" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="2f8a" class="javax.swing.JButton" binding="Exitbutton">
+            <constraints>
+              <grid row="14" column="6" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-4514017"/>
+              <font name="Curlz MT" size="26" style="2"/>
+              <foreground color="-4487394"/>
+              <text value="Exit"/>
+            </properties>
+          </component>
+          <grid id="c65ac" binding="pn1" layout-manager="GridLayoutManager" row-count="2" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="10" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-8728016"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <vspacer id="74f31">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <component id="47b84" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Curlz MT" size="28" style="0"/>
+                  <foreground color="-15660895"/>
+                  <text value="PLAY TODAY LEARN TODAY"/>
+                </properties>
+              </component>
+              <hspacer id="175b9">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <hspacer id="c6988">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+            </children>
+          </grid>
+          <vspacer id="a4d32">
+            <constraints>
+              <grid row="15" column="7" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="fa482">
+            <constraints>
+              <grid row="13" column="10" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="9d12a">
+            <constraints>
+              <grid row="4" column="10" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="84168">
+            <constraints>
+              <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="8cc2e">
+            <constraints>
+              <grid row="6" column="10" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="666de">
+            <constraints>
+              <grid row="6" column="5" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <hspacer id="bdbc6">
+            <constraints>
+              <grid row="5" column="13" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="e15f4">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="4dd15" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="IMg/tonton-tonton-sticker.gif"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <vspacer id="b7f3">
+            <constraints>
+              <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="8d1ef" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="10" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Curlz MT" size="22" style="1"/>
+              <foreground color="-7332421"/>
+              <text value="Number of turns left : "/>
+            </properties>
+          </component>
+          <component id="aea5c" class="javax.swing.JLabel" binding="l3">
+            <constraints>
+              <grid row="2" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Curlz MT" size="22" style="3"/>
+              <foreground color="-13882437"/>
+              <text value="10 "/>
+            </properties>
+          </component>
+          <component id="f9e6d" class="javax.swing.JButton" binding="leaderBoardButton" default-binding="true">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="7" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-2975979"/>
+              <font name="Curlz MT" size="22" style="2"/>
+              <hideActionText value="true"/>
+              <text value="Leader Board"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
